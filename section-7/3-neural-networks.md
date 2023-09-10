@@ -1,23 +1,22 @@
 # Neural Networks
 
 A multi-layer perceptron model!  
-Vertical layers of individual perceptrons.
+Vertical layers of individual perceptrons.  
 Take their output and feed them as input into another vertical layer of perceptrons.  
 
 feed-forward = uni-directional (input --> output, left to right).  
 fully connected: every neuron in one layer is connected to every neuron in the next layer!  
 
-input layer: first layer.
-output layer: last layer.
-hidden layers: layers inbetween.
+input layer: first layer.  
+output layer: last layer.  
+hidden layers: layers inbetween.  
 
 The output can be more than one neuron, especially in the case of multi-class classification.  
 
 hidden layers are difficult to interpret, due to their high connectivity and their distance away from known input and output values.  
 
 When does a neural network become a deep neural network?
-- when you contain two or more hidden layers...
-whoa hahaha. 
+- when you contain two or more hidden layers...  
 
 Deep neural network:
 - a neural network (interconnected layers of perceptrons) with two or more hidden layers.  
@@ -39,7 +38,7 @@ example constrain for classification tasks:
 - have all outputs fall between 0 and 1  
 - these values can then present probability assignments for each class.  
 
-in the next lecture we'll discuss **activation functions** to se tboundaries to output values from the neuron.  
+in the next lecture we'll discuss **activation functions** to set boundaries to output values from the neuron.  
 
 
 
